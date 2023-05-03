@@ -1,0 +1,56 @@
+body {
+    background-image: url('background2.gif');
+    background-size: cover;
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+
+    height: 100vh;
+    width: 100vw;
+    background-color: #FAF8F8;
+    margin: 0rem;
+    overflow: hidden;
+  }
+  
+  #image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    user-select: none; /* -- Prevent image highlighting -- */
+  }
+  
+  #image-track > .image1, .image2, .image3, .image4, .image5, .image6, .image1 {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+  }
+
+  h1 {
+    color: whitesmoke;
+    margin-left: 50px;
+  }
+
+  .topnav-centered a {
+    color: whitesmoke;
+    text-decoration: none;
+    border-bottom: 1px solid #333333;
+    user-select: none;
+  }
+
+  .topnav-centered a:hover {
+   color: #808080;
+   text-decoration: underline;
+  }
+
+  .topnav-centered a {
+    float: none;
+    position: relative;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }

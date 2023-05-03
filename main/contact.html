@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="./contact.css">
+  </head>
+  <body>
+    <main>
+        <h1>İletişim</h1>
+    </main>
+
+    <div id="nav" class="topnav-centered">
+      <a href="main.html" target="_self">Anasayfa</a>
+    </div>
+    
+    <div class="container">
+      <form action="action_page.php">
+    
+        <label for="fname">İsim</label>
+        <input type="text" id="fname" name="firstname" placeholder="İsminiz...">
+    
+        <label for="lname">Soyisim</label>
+        <input type="text" id="lname" name="lastname" placeholder="Soyisminiz...">
+    
+        <label for="country">Ülke</label>
+        <select id="country" name="country">
+          <option value="türkiye">Türkiye</option>
+          <option value="belçika">Belçika</option>
+          <option value="usa">USA</option>
+        </select>
+    
+        <label for="subject">Konu</label>
+        <textarea id="subject" name="subject" placeholder="Bir şey yazınız..." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+    </div>
+  </body>
+</html>
